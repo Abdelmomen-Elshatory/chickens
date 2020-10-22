@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>بورصة الدواجن</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/image-uploader.css" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Start navbar -->
+    <nav class="our-navbar navbar-expand-md navbar navbar-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="images/logo.svg" alt="logo" />
+            </a>
+            <button class="navbar-toggler button-nav" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-ul">
+                    <li class="nav-item">
+                        <i class="fas fa-home"></i>
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fas fa-search"></i>
+                        <a class="nav-link" href="search.html">البحث</a>
+                    </li>
+                    <li class="login nav-item">
+                        <a class="nav-link" href="login.html">حساب جديد | دخول</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start add ad -->
+    <div class="addad">
+        <div class="container">
+            <h2 class="text-center">إضافة إعلان</h2>
+            <span class="line"></span>
+            <form class="our-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="نوع الطائر" id="exampleInputEmail1">
+                </div>
+                <div class="form-group upload">
+                    <fieldset class="form-group">
+                        <h6>إضافة صورة</h6>
+                        <a href="javascript:void(0)" onclick="$('#pro-image').click()">أضف صورة<i class="fas fa-cloud-upload-alt"></i></a>
+                        <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
+                    </fieldset>
+                    <div class="preview-images-zone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="السعر" id="exampleInputEmail2">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <input type="text" class="form-control" placeholder="عمر الطائر" id="inputCity">
+                    </div>
+                    <div class="form-group col-6">
+                        <input type="text" class="form-control" placeholder="عدد الطيور" id="inputCity1">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="validationTextarea" placeholder="الوصف" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="الإسم" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="رقم التليفون" id="exampleInputPassword2">
+                </div>
+                <div class="form-group">
+                    <select id="inputState" class="form-control">
+                        <option selected>المحافظة</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">حساب جديد</button>
+            </form>
+        </div>
+    </div>
+    <!-- End add ad -->
+
+    <!-- Start contact us -->
+    <div class="contact text-center">
+        <div class="container">
+            <div class="contain-logo">
+                <img src="images/logo2.svg" alt="01" />
+            </div>
+            <div class="contain-social">
+                <ul>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+            <div class="contain-rule">
+                <ul>
+                    <li><a href="policy.html">سياسة الخصوصية | </a></li>
+                    <li><a href="terms.html">شروط الخدمة | </a></li>
+                    <li><a href="contact.html">تواصل معنا | </a></li>
+                    <li><a href="us.html">من نحن</a></li>
+                </ul>
+            </div>
+            <a class="play" href="#">Google Play <i class="fab fa-google-play"></i></a>
+        </div>
+    </div>
+    <!-- End contact us -->
+
+    <!-- Start footer -->
+    <footer class="text-center">
+        بورصة الدواجن <bdi>2020 All rights reserved | </bdi>
+    </footer>
+    <!-- End footer -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/image-uploader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+
+</html>

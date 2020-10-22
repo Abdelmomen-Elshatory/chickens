@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>بورصة الدواجن</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Start navbar -->
+    <nav class="our-navbar navbar-expand-md navbar navbar-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">
+                <img src="images/logo.svg" alt="logo" />
+            </a>
+            <button class="navbar-toggler button-nav" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-ul">
+                    <li class="nav-item">
+                        <i class="fas fa-home"></i>
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fas fa-search"></i>
+                        <a class="nav-link" href="search.html">البحث</a>
+                    </li>
+                    <li class="login nav-item">
+                        <a class="nav-link" href="login.html">حساب جديد | دخول</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start sign in -->
+    <div class="signin">
+        <div class="container">
+            <h2 class="text-center">حساب جديد</h2>
+            <span class="line"></span>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="اسم المستخدم" id="exampleInputEmail1">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="رقم الموبايل" id="exampleInputEmail2">
+                </div>
+                <div class="form-group">
+                    <select id="inputState1" class="form-control">
+                        <option selected>المحافظة</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <input type="text" class="form-control" placeholder="العمر" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-9">
+                        <select id="inputState" class="form-control">
+                            <option selected>الجنس(ذكر / انثى)</option>
+                            <option>ذكر</option>
+                            <option>انثى</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="كلمة المرور" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="تأكيد طلمة المرور"
+                        id="exampleInputPassword12">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label links" for="exampleCheck1">اوافق على <a href="terms.html">شروط الإستخدام</a> و
+                        <a href="policy.html">سياسة الخصوصية</a></label>
+                </div>
+                <button type="submit" class="btn">حساب جديد</button>
+            </form>
+        </div>
+    </div>
+    <!-- End sign in -->
+
+    <!-- Start contact us -->
+    <div class="contact text-center">
+        <div class="container">
+            <div class="contain-logo">
+                <img src="images/logo2.svg" alt="01" />
+            </div>
+            <div class="contain-social">
+                <ul>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+            <div class="contain-rule">
+                <ul>
+                    <li><a href="policy.html">سياسة الخصوصية | </a></li>
+                    <li><a href="terms.html">شروط الخدمة | </a></li>
+                    <li><a href="contact.html">تواصل معنا | </a></li>
+                    <li><a href="us.html">من نحن</a></li>
+                </ul>
+            </div>
+            <a class="play" href="#">Google Play <i class="fab fa-google-play"></i></a>
+        </div>
+    </div>
+    <!-- End contact us -->
+
+    <!-- Start footer -->
+    <footer class="text-center">
+        بورصة الدواجن <bdi>2020 All rights reserved | </bdi>
+    </footer>
+    <!-- End footer -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+
+</html>
